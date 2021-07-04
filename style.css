@@ -37,7 +37,7 @@ body{
     color: dimgray;
 }
 .image{
-    width: 95%;
+    width: 100%;
 }
 .mid-section{
     background-image: url(images/dream-bg.png);
@@ -45,12 +45,42 @@ body{
     background-position-y: bottom;
     background-position-x: right;
     display: flex;
-    padding: 0px 124px;
+    margin-bottom: 100px;
 }
-.image2{
-    width: 95%;
-    
+.last-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    margin-bottom: 150px;
 }
-.mid-section image{
-    margin-left: 1000px;
+.last-section h1,h2{
+    font-size: 50px;
+    font-weight: 600;
+}
+.last-parent{
+    display: flex;
+}
+.exp-width{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 45px grey;
+    padding-bottom: 100px;
+    margin-bottom: 107px;
+    border-left: 10px solid;
+    border-image: linear-gradient(lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#bg{
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1; 
+}
+.col{
+    color: #696969;
+}
+footer{
+    text-align: center;
+    margin-bottom: 100px;
 }
